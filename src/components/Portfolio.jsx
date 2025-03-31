@@ -34,14 +34,14 @@ const Notification = ({ message, onClose }) => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
       transition={{ duration: 0.3 }}
-      className="fixed bottom-6 right-6 bg-gray-800 text-white px-4 py-3 rounded-lg shadow-xl flex items-start gap-3 z-[1000] max-w-md"
+      className="fixed bottom-6 right-6 bg-gray-800 text-black px-4 py-3 rounded-lg shadow-xl flex items-start gap-3 z-[1000] max-w-md"
     >
       <div className="flex-1">
         <p className="text-sm leading-snug">{message}</p>
       </div>
       <button 
         onClick={onClose} 
-        className="text-gray-300 hover:text-white focus:outline-none mt-0.5"
+        className="text-gray-300 hover:text-black focus:outline-none mt-0.5"
         aria-label="Close notification"
       >
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -198,15 +198,15 @@ const Portfolio = () => {
                     </div>
                     
                     {/* Flip Card Back */}
-                    <div className="flip-card-back rounded-4 bg-gradient-to-br from-blue-800 to-blue-600 text-white d-flex flex-column justify-content-center p-5 h-100">
+                    <div className="flip-card-back rounded-4 bg-gradient-to-br from-blue-800 to-blue-600 text-black d-flex flex-column justify-content-center p-5 h-100">
                       <h3 className="text-3xl fw-bold mb-3">Full Stack Developer</h3>
                       <div className="w-25 h-2 bg-blue-300 mb-3"></div>
                       <p className="mb-4">React | Node.js | Django | TypeScript | MySQL | PostgreSQL</p>
                       <div className="d-flex gap-3 justify-content-center flex-wrap">
                         <Button size="sm" className="bg-blue-700 hover:bg-blue-800 transition-colors">
-                          2+ Years Experience
+                          2+ Years Experienc
                         </Button>
-                        <Button size="sm" variant="outline" className="text-white border-white hover:bg-white hover:text-blue-800 transition-colors">
+                        <Button size="sm" variant="outline" className="text-black border-white hover:bg-white hover:text-blue-800 transition-colors">
                           Remarkable Projects
                         </Button>
                       </div>
@@ -238,7 +238,7 @@ const Portfolio = () => {
                       I'm here to help. Let's collaborate to create a solution that drives results and exceeds expectations.
                     </p>
                     <div className="text-center">
-                      <button className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 md:px-6 rounded-lg transition-colors text-sm md:text-base">
+                      <button className="bg-blue-600 hover:bg-blue-700 text-black font-medium py-2 px-4 md:px-6 rounded-lg transition-colors text-sm md:text-base">
                         📩 Reach out today
                       </button>
                       <p className="text-blue-600 mt-3 font-medium text-sm md:text-base">Let's discuss how I can bring your ideas to life!</p>
