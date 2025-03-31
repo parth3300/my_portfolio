@@ -143,6 +143,7 @@ const Portfolio = () => {
       <section id="home" className="py-5 py-lg-7">
         <div className="container">
           <div className="row align-items-center">
+            
             {/* Text Content - Left Side */}
             <div className="col-lg-6 mb-5 mb-lg-0">
               <motion.div
@@ -184,8 +185,9 @@ const Portfolio = () => {
                 transition={{ delay: 0.2, duration: 0.5 }}
                 className="position-relative"
               >
-                <div className="flip-card" style={{ height: '500px' }}>
+                <div className="flip-card" style={{ height: '800px' }}>
                   <div className="flip-card-inner h-100">
+                    
                     {/* Flip Card Front */}
                     <div className="flip-card-front rounded-4 overflow-hidden shadow-lg h-100">
                       <img 
@@ -209,6 +211,7 @@ const Portfolio = () => {
                         </Button>
                       </div>
                     </div>
+                    
                   </div>
                 </div>
               </motion.div>
@@ -225,6 +228,8 @@ const Portfolio = () => {
                 viewport={{ once: true }}
               >
                 <div className="bg-gray-50 p-6 md:p-8 rounded-xl">
+                  
+
                   {/* Call to Action */}
                   <div className="bg-blue-50 p-5 md:p-6 rounded-lg border border-blue-100">
                     <h3 className="text-xl md:text-2xl font-bold text-blue-800 mb-3 text-center">Let's Build Something Amazing Together!</h3>
@@ -245,6 +250,7 @@ const Portfolio = () => {
           </div>
         </div>
       </section>
+
 
       {/* Services Section */}
       <section id="services" className="py-5 bg-white">
